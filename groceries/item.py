@@ -1,6 +1,7 @@
 from dataclasses import dataclass
-from groceries.constants import EMPTY
 from enum import Enum
+
+from groceries.constants import EMPTY
 
 
 class Priority(Enum):

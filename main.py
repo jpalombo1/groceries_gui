@@ -1,8 +1,8 @@
 from pathlib import Path
 
-from groceries.io import items_from_csv
 from groceries.grocer_list import GroceryList
 from groceries.gui import GUI
+from groceries.io import items_from_csv
 
 DATABASE = Path(__file__).parent / "data" / "grocery_list.csv"
 OUTPATH = DATABASE.parent / "test_list.csv"

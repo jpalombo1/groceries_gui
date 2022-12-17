@@ -2,10 +2,10 @@ import tkinter as tk
 import tkinter.font as tkf
 from functools import partial
 
-from groceries.item import Item, Priority, Supply, KitchenArea, GrocerArea
+from groceries.constants import EMPTY
 from groceries.grocer_list import GroceryList
 from groceries.io import items_to_csv
-from groceries.constants import EMPTY
+from groceries.item import GrocerArea, Item, KitchenArea, Priority, Supply
 
 NAME_TEXT: str = "Name"
 PRICE_TEXT: str = "Price"

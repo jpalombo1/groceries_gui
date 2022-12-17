@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from pathlib import Path
-from groceries.item import Item, Priority, Supply, KitchenArea, GrocerArea
+
+from groceries.item import GrocerArea, Item, KitchenArea, Priority, Supply
 
 
 @dataclass

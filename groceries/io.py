@@ -2,9 +2,9 @@ from enum import Enum
 from pathlib import Path
 from typing import Any, Union
 
-from groceries.item import Priority, Supply, GrocerArea, KitchenArea, Item
-
 import pandas as pd
+
+from groceries.item import GrocerArea, Item, KitchenArea, Priority, Supply
 
 VAL_ENUM_MAP = {
     "priority": Priority,
