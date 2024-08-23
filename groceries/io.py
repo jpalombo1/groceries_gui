@@ -3,7 +3,6 @@ from pathlib import Path
 from typing import Any, Union
 
 import pandas as pd
-
 from groceries.item import GrocerArea, Item, KitchenArea, Priority, Supply
 
 VAL_ENUM_MAP = {
